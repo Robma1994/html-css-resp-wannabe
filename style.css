@@ -87,8 +87,6 @@ img {
     font-size: 25px;
   }
 
-  
-
 }
 /*Fine media query comune*/
 
@@ -174,4 +172,40 @@ img {
 
 /*Fine media query Come funziona*/
 
+/*Perchè Cademi*/
+
+/*Fine perchè Cademi*/
+@media screen and (max-width: 419px) {
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 0px;
+  }
+
+  #why > .row > .first > img + h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #why > .row > .second > img + h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #why > .row > .third > img + h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #why .row img {
+    width: 20%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  #why, .container{
+    background-color: rgb(242, 242, 205);  
+  }
+}
+  
 /*Fine media query*/
